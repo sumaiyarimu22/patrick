@@ -1,0 +1,54 @@
+{
+  "name": "patrick-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.3",
+    "caniuse-lite": "^1.0.30001688",
+    "faster": "^3.4.3",
+    "gsap": "^3.12.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.0.2",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "^5.0.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-tabs": "^6.0.2",
+    "react-toastify": "^10.0.6",
+    "react-tsparticles": "^2.12.2",
+    "react-youtube": "^10.1.0",
+    "styled-components": "^6.1.13",
+    "web-vitals": "^4.2.4"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "CI=false && react-scripts build",
+    "clean:node_modules": "rimraf --glob \"**/node_modules\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "src/index.jsx",
+  "keywords": [],
+  "author": "Sumaiya Rimu",
+  "license": "UNLICENSED"
+}
